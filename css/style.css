@@ -316,3 +316,36 @@ nav a:hover {
     color:#0B3B6E;
 
 }
+/* ==========================================
+   6. FOOTER
+========================================== */
+
+footer {
+    background-color: #0B3B6E;
+    color: #FFFFFF;
+    margin-top: 100px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 40px;
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+
+.footer-content p {
+    max-width: 700px;
+    margin: 0 auto 18px;
+    color: #D6E2F0;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #AFC3D9;
+}
