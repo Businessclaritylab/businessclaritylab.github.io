@@ -187,3 +187,21 @@ nav a:hover {
 .category-card p {
     color: #64748B;
 }
+/* Trust Points */
+
+.trust-points {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.trust-item {
+    background: white;
+    border: 1px solid #d9e2ef;
+    padding: 16px 22px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #0B3B6E;
+    box-shadow: 0 6px 18px rgba(0,0,0,.05);
+}
