@@ -400,3 +400,64 @@ footer {
     color: #555;
     line-height: 1.8;
 }
+/* ===========================
+   Featured Software Reviews
+=========================== */
+
+.featured-software {
+    padding: 100px 10%;
+    background: #F8FAFC;
+}
+
+.software-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.software-card {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 18px;
+    border: 1px solid #E5E7EB;
+    transition: 0.3s ease;
+}
+
+.software-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.08);
+}
+
+.software-type {
+    display: inline-block;
+    background: #E8F1FB;
+    color: #0B3B6E;
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.software-card h3 {
+    color: #0B3B6E;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.software-card p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.software-card a {
+    color: #0B3B6E;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.software-card a:hover {
+    text-decoration: underline;
+}
