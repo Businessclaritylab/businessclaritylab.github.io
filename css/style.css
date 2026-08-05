@@ -3,25 +3,25 @@
 ========================================== */
 :root {
 
-    --primary: #0B3B6E;
+    --primary: #184E8A;
 
-    --primary-dark: #082C52;
+    --primary-dark: #123A66;
 
-    --accent: #B8860B;
+    --accent: #2EC5FF;
 
-    --background: #FAF8F2;
+    --background: #EEF5FB;
 
-    --surface: #FAF8F2;
+    --surface: #F6FAFD;
    
-    --surface-alt: #F3F0E8;
+    --surface-alt: #E7F0F8;
    
-    --surface-card: #FFFFFF;
+    --surface-card: #FDFEFF;
 
-    --text: #1E293B;
+    --text: #1F2937;
+   
+    --text-light: #5B6B7F;
 
-    --text-light: #64748B;
-
-    --border: #E5E7EB;
+    --border: #D6E3EF;
 
     --shadow: 0 15px 35px rgba(0,0,0,.08);
 
