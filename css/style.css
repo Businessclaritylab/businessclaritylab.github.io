@@ -67,14 +67,27 @@ ul {
 ========================================== */
 
 header {
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #E5E7EB;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    background: rgba(255,255,255,.95);
+
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid var(--border);
 
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
 
-    padding: 24px 80px;
+    padding: 20px 80px;
+
 }
 
 .logo {
@@ -83,15 +96,25 @@ header {
 }
 
 .site-name {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #0B3B6E;
+
+    font-size: 1.9rem;
+
+    font-weight: 800;
+
+    letter-spacing: -.5px;
+
+    color: var(--primary);
+
 }
 
 .logo p:last-child {
-    margin-top: 4px;
-    font-size: 0.95rem;
-    color: #64748B;
+
+    margin-top: 6px;
+
+    font-size: .95rem;
+
+    color: var(--text-light);
+
 }
 /* ==========================================
    3. NAVIGATION
@@ -103,13 +126,21 @@ nav ul {
 }
 
 nav a {
-    color: #1E293B;
+
+    color: var(--text);
+
     font-weight: 600;
-    transition: color 0.3s ease;
+
+    padding: 10px 6px;
+
+    transition: .25s ease;
+
 }
 
 nav a:hover {
-    color: #C99016;
+
+    color: var(--accent);
+
 }
 /* ==========================================
    4. HERO SECTION
