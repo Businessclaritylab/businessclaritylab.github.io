@@ -277,6 +277,31 @@ nav a.active::after {
 
 }
 /* ==========================================
+   5. CARD SYSTEM
+========================================== */
+
+.card {
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    padding: 32px;
+
+    transition: all .3s ease;
+
+}
+
+.card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: var(--shadow);
+
+}
+/* ==========================================
    4. HERO SECTION
 ========================================== */
 
