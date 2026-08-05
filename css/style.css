@@ -7,11 +7,15 @@
 
     --primary-dark: #082C52;
 
-    --accent: #C99016;
+    --accent: #B8860B;
 
-    --background: #F8F9FB;
+    --background: #FAF8F2;
 
-    --surface: #FFFFFF;
+    --surface: #FAF8F2;
+   
+    --surface-alt: #F3F0E8;
+   
+    --surface-card: #FFFFFF;
 
     --text: #1E293B;
 
@@ -282,7 +286,7 @@ nav a.active::after {
 
 .card {
 
-    background: var(--surface);
+    background: var(--surface-card);
 
     border: 1px solid var(--border);
 
@@ -362,7 +366,40 @@ nav a.active::after {
 
     flex-wrap: wrap;
 }
+/* ==========================================
+   REUSABLE SECTION HEADER
+========================================== */
 
+.section-header{
+    max-width:720px;
+    margin:0 auto 60px;
+    text-align:center;
+}
+
+.section-label{
+    display:inline-block;
+    margin-bottom:18px;
+    padding:8px 16px;
+    border-radius:999px;
+    background:#F3E8C7;
+    color:var(--primary);
+    font-size:0.85rem;
+    font-weight:700;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+}
+
+.section-header h2{
+    margin-bottom:22px;
+    font-size:var(--text-2xl);
+    font-weight:var(--weight-bold);
+    color:var(--primary);
+}
+
+.section-header p{
+    color:var(--text-light);
+    line-height:1.8;
+}
 /* ==========================================
    5. CATEGORY PREVIEW
 ========================================== */
@@ -383,11 +420,9 @@ nav a.active::after {
     color: var(--primary);
 }
 
-.categories-preview > p {
-    max-width: 760px;
-    color: #475569;
-    margin-bottom: 50px;
-    font-size: 1.1rem;
+.categories-preview p{
+    margin-top:20px;
+    margin-bottom:60px;
 }
 
 .category-grid {
