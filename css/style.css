@@ -22,7 +22,33 @@
     --shadow: 0 15px 35px rgba(0,0,0,.08);
 
     --radius: 16px;
+    /* Typography */
 
+    --text-xs: 0.875rem;
+
+    --text-sm: 1rem;
+
+    --text-base: 1.125rem;
+
+    --text-lg: 1.35rem;
+
+    --text-xl: 1.75rem;
+
+    --text-2xl: 2.5rem;
+
+    --text-3xl: 3.5rem;
+
+    /* Font weights */
+
+    --weight-regular: 400;
+
+    --weight-medium: 500;
+
+    --weight-semibold: 600;
+
+    --weight-bold: 700;
+
+    --weight-extrabold: 800;
 }
 
 * {
@@ -36,10 +62,19 @@ html {
 }
 
 body {
+
     font-family: 'Inter', sans-serif;
-    background-color: #F8F9FB;
-    color: #1E293B;
-    line-height: 1.7;
+
+    font-size: var(--text-base);
+
+    font-weight: var(--weight-regular);
+
+    background: var(--background);
+
+    color: var(--text);
+
+    line-height: 1.75;
+
 }
 
 .container {
@@ -183,9 +218,11 @@ nav a.active::after {
 
 .hero h1 {
     max-width: 720px;
-    font-size: 3.5rem;
-    line-height: 1.1;
-    color: #0B3B6E;
+    font-size: var(--text-3xl);
+    font-weight: var(--weight-extrabold);
+    line-height: 1.08;
+    letter-spacing: -1.5px;
+    color: var(--primary);
 }
 
 .hero p {
@@ -240,9 +277,15 @@ nav a.active::after {
 }
 
 .categories-preview h2 {
-    font-size: 2.3rem;
-    color: #0B3B6E;
-    margin-bottom: 18px;
+    font-size: var(--text-2xl);
+
+    font-weight: var(--weight-extrabold);
+
+    line-height: 1.2;
+
+    letter-spacing: -1px;
+
+    color: var(--primary);
 }
 
 .categories-preview > p {
@@ -310,11 +353,15 @@ nav a.active::after {
 
 .featured-articles h2{
 
-    font-size:2.5rem;
+    font-size: var(--text-2xl);
 
-    color:#0B3B6E;
+    font-weight: var(--weight-extrabold);
 
-    margin-bottom:20px;
+    line-height: 1.2;
+
+    letter-spacing: -1px;
+
+    color: var(--primary);
 
 }
 
@@ -452,9 +499,15 @@ footer {
 }
 
 .why-trust h2 {
-    font-size: 2.6rem;
-    color: #0B3B6E;
-    margin-bottom: 20px;
+    font-size: var(--text-2xl);
+
+    font-weight: var(--weight-extrabold);
+
+    line-height: 1.2;
+
+    letter-spacing: -1px;
+
+    color: var(--primary);
 }
 
 .section-intro {
@@ -500,6 +553,17 @@ footer {
 .featured-software {
     padding: 100px 10%;
     background: #F8FAFC;
+}
+.featured-software h2 {
+    font-size: var(--text-2xl);
+
+    font-weight: var(--weight-extrabold);
+
+    line-height: 1.2;
+
+    letter-spacing: -1px;
+
+    color: var(--primary);
 }
 
 .software-grid {
