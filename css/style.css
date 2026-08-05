@@ -310,32 +310,6 @@ nav a.active::after {
     margin-top: 40px;
 }
 
-.hero-buttons a:first-child {
-    background-color: #0B3B6E;
-    color: #FFFFFF;
-    padding: 15px 30px;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-}
-
-.hero-buttons a:first-child:hover {
-    background-color: #082C52;
-}
-
-.hero-buttons a:last-child {
-    border: 2px solid #0B3B6E;
-    color: #0B3B6E;
-    padding: 15px 30px;
-    border-radius: 8px;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-
-.hero-buttons a:last-child:hover {
-    background-color: #0B3B6E;
-    color: #FFFFFF;
-}
 /* ==========================================
    5. CATEGORY PREVIEW
 ========================================== */
