@@ -49,6 +49,19 @@
     --weight-bold: 700;
 
     --weight-extrabold: 800;
+    /* Spacing */
+
+    --space-xs: 8px;
+
+    --space-sm: 16px;
+
+    --space-md: 24px;
+
+    --space-lg: 40px;
+
+    --space-xl: 80px;
+
+    --space-2xl: 120px;
 }
 
 * {
@@ -211,9 +224,9 @@ nav a.active::after {
 .hero {
     max-width: 1200px;
 
-    margin: 120px auto;
+    margin: var(--space-2xl) auto;
 
-    padding: 0 40px 40px;
+    padding: 0 var(--space-lg) var(--space-lg);
 }
 
 .hero h1 {
@@ -271,9 +284,9 @@ nav a.active::after {
 .categories-preview {
     max-width: 1200px;
 
-    margin: 0 auto 120px;
+    margin: 0 auto var(--space-2xl);
 
-    padding: 0 40px;
+    padding: 0 var(--space-lg);
 }
 
 .categories-preview h2 {
