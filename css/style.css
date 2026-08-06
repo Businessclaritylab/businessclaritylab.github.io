@@ -792,3 +792,28 @@ footer {
     color:var(--text-light);
     line-height:1.8;
 }
+/* ==========================================
+   PAGE HERO
+========================================== */
+
+.page-hero{
+
+    text-align:center;
+
+}
+
+.page-hero h1{
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+}
+
+.page-hero p{
+
+    max-width:700px;
+
+    margin:32px auto 0;
+
+}
