@@ -3233,10 +3233,10 @@ Fade Up
 
 .reveal{
 
-    opacity:1;
+    opacity:0;
 
     transform:
-        translateY(0);
+        translateY(60px);
 
     transition:
 
@@ -3318,10 +3318,10 @@ STAGGER SYSTEM
 
 .stagger>*{
 
-    opacity:1;
+    opacity:0;
 
     transform:
-        translateY(0);
+        translateY(40px);
 
     transition:
 
