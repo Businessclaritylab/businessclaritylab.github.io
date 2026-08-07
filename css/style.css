@@ -2862,3 +2862,350 @@ body{
     text-rendering:optimizeLegibility;
 
 }
+
+/* ==========================================
+PHASE 4A
+MOTION DESIGN SYSTEM
+========================================== */
+
+/* Smooth GPU Rendering */
+
+*{
+
+    transform-style:preserve-3d;
+
+}
+
+
+/* ==========================================
+
+GLOBAL SECTION FADE
+
+========================================== */
+
+section{
+
+    transition:
+
+        transform .6s ease,
+
+        opacity .6s ease;
+
+}
+
+
+/* ==========================================
+
+CARD FLOAT
+
+========================================== */
+
+.card,
+.category-card,
+.article-card,
+.software-card,
+.understanding-step,
+.trust-grid article{
+
+    will-change:
+        transform,
+        box-shadow;
+
+}
+
+
+/* ==========================================
+
+PREMIUM HOVER LIFT
+
+========================================== */
+
+.card:hover,
+.category-card:hover,
+.article-card:hover,
+.software-card:hover,
+.understanding-step:hover,
+.trust-grid article:hover{
+
+    transform:
+
+        translateY(-14px)
+
+        scale(1.015);
+
+}
+
+
+/* ==========================================
+
+BUTTON SPRING
+
+========================================== */
+
+.btn{
+
+    transition:
+
+        transform .25s cubic-bezier(.22,1,.36,1),
+
+        box-shadow .3s ease,
+
+        background .3s ease;
+
+}
+
+.btn:active{
+
+    transform:
+
+        scale(.96);
+
+}
+
+
+/* ==========================================
+
+NAVIGATION SPRING
+
+========================================== */
+
+nav a{
+
+    transition:
+
+        transform .25s ease,
+
+        color .25s ease,
+
+        background .25s ease;
+
+}
+
+nav a:hover{
+
+    transform:
+
+        translateY(-2px);
+
+}
+
+
+/* ==========================================
+
+LOGO MOTION
+
+========================================== */
+
+.logo{
+
+    transition:
+
+        transform .35s ease;
+
+}
+
+.logo:hover{
+
+    transform:
+
+        scale(1.04);
+
+}
+
+
+/* ==========================================
+
+HERO CONTENT
+
+========================================== */
+
+.hero h1{
+
+    animation:
+
+        heroFloat 10s ease-in-out infinite;
+
+}
+
+.hero p{
+
+    animation:
+
+        heroFloatReverse 12s ease-in-out infinite;
+
+}
+
+
+/* ==========================================
+
+TRUST PILLS
+
+========================================== */
+
+.trust-item{
+
+    transition:
+
+        transform .35s ease,
+
+        box-shadow .35s ease;
+
+}
+
+.trust-item:hover{
+
+    transform:
+
+        translateY(-6px)
+
+        scale(1.05);
+
+}
+
+
+/* ==========================================
+
+CATEGORY TILT
+
+========================================== */
+
+.category-card{
+
+    perspective:1200px;
+
+}
+
+.category-card:hover{
+
+    transform:
+
+        rotateX(5deg)
+
+        rotateY(-5deg)
+
+        translateY(-12px);
+
+}
+
+
+/* ==========================================
+
+ARTICLE DEPTH
+
+========================================== */
+
+.article-card{
+
+    perspective:1200px;
+
+}
+
+.article-card:hover{
+
+    transform:
+
+        translateY(-12px)
+
+        rotateX(3deg);
+
+}
+
+
+/* ==========================================
+
+SOFTWARE CARD
+
+========================================== */
+
+.software-card:hover{
+
+    transform:
+
+        translateY(-14px)
+
+        rotateY(-3deg);
+
+}
+
+
+/* ==========================================
+
+UNDERSTANDING STEPS
+
+========================================== */
+
+.understanding-step{
+
+    transition:
+
+        transform .45s ease,
+
+        box-shadow .45s ease;
+
+}
+
+
+/* ==========================================
+
+FOOTER
+
+========================================== */
+
+footer{
+
+    transition:
+
+        background .8s ease;
+
+}
+
+
+/* ==========================================
+
+KEYFRAMES
+
+========================================== */
+
+@keyframes heroFloat{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-8px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes heroFloatReverse{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(8px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
