@@ -594,6 +594,8 @@ footer {
     background-color: #0B3B6E;
     color: #FFFFFF;
     margin-top: 100px;
+    text-align: center;
+    padding: 24px;
 }
 
 .footer-content {
