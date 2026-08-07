@@ -3318,10 +3318,10 @@ STAGGER SYSTEM
 
 .stagger>*{
 
-    opacity:0;
+    opacity:1;
 
     transform:
-        translateY(40px);
+        translateY(0);
 
     transition:
 
