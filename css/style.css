@@ -371,9 +371,13 @@ nav a.active::after {
 ========================================== */
 
 .section-header{
-    max-width:720px;
+
+    max-width:700px;
+
     margin:0 auto 60px;
+
     text-align:center;
+
 }
 
 .section-label{
@@ -390,7 +394,7 @@ nav a.active::after {
 }
 
 .section-header h2{
-    margin-bottom:32px;
+    margin-bottom:24px;
     font-size:var(--text-2xl);
     font-weight:var(--weight-bold);
     color:var(--primary);
@@ -717,38 +721,6 @@ footer {
     padding: 100px 10%;
     background: #F8FAFC;
 }
-
-.featured-software h2 {
-
-    font-size: var(--text-2xl);
-
-    font-weight: var(--weight-extrabold);
-
-    line-height: 1.2;
-
-    letter-spacing: -1px;
-
-    color: var(--primary);
-
-    text-align: center;
-
-    margin-bottom: 24px;
-
-}
-   
-.featured-software .section-intro{
-
-    max-width: 700px;
-
-    margin: 24px auto 60px;
-
-    text-align: center;
-
-    font-size: 1.2rem;
-
-    color: #5f6b7a;
-
-}
    
 .software-grid {
     display: grid;
@@ -808,6 +780,38 @@ footer {
 
 .understanding-panel{
     padding:100px 0;
+}
+
+.understanding-panel h2{
+
+    font-size: var(--text-2xl);
+
+    font-weight: var(--weight-extrabold);
+
+    line-height: 1.2;
+
+    letter-spacing: -1px;
+
+    color: var(--primary);
+
+    text-align: center;
+
+    margin-bottom: 24px;
+
+}
+
+.understanding-panel .section-intro{
+
+    max-width:700px;
+
+    margin:0 auto 60px;
+
+    text-align:center;
+
+    font-size:1.2rem;
+
+    color:#5f6b7a;
+
 }
 
 .understanding-grid{
