@@ -3233,10 +3233,10 @@ Fade Up
 
 .reveal{
 
-    opacity:0;
+    opacity:1;
 
     transform:
-        translateY(60px);
+        translateY(0);
 
     transition:
 
