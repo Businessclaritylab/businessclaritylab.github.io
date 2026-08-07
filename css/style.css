@@ -2399,3 +2399,466 @@ img:hover{
     filter:saturate(108%);
 
 }
+
+/* ==========================================
+PHASE 3C
+PREMIUM GLASSMORPHISM SYSTEM
+========================================== */
+
+/* Premium Glass Cards */
+
+.card,
+.category-card,
+.article-card,
+.software-card,
+.understanding-step,
+.trust-grid article{
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.78),
+            rgba(255,255,255,.55)
+        );
+
+    backdrop-filter:
+        blur(26px)
+        saturate(180%);
+
+    -webkit-backdrop-filter:
+        blur(26px)
+        saturate(180%);
+
+}
+
+
+/* ==========================================
+
+LUXURY BORDER LIGHT
+
+========================================== */
+
+.card::before,
+.category-card::before,
+.article-card::before,
+.software-card::before,
+.understanding-step::before{
+
+    opacity:.95;
+
+}
+
+
+/* ==========================================
+
+FLOATING HIGHLIGHT
+
+========================================== */
+
+.card:hover,
+.category-card:hover,
+.article-card:hover,
+.software-card:hover,
+.understanding-step:hover{
+
+    box-shadow:
+
+        0 35px 90px rgba(2,53,60,.12),
+
+        0 0 45px rgba(63,208,201,.18),
+
+        inset 0 1px rgba(255,255,255,.55);
+
+}
+
+
+/* ==========================================
+
+PREMIUM HERO LIGHT
+
+========================================== */
+
+.hero{
+
+    overflow:hidden;
+
+}
+
+.hero::before{
+
+    opacity:.85;
+
+}
+
+.hero::after{
+
+    opacity:.75;
+
+}
+
+
+/* ==========================================
+
+SOFT FLOATING PARTICLES
+
+========================================== */
+
+.hero .grid-overlay::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+
+        radial-gradient(
+            rgba(255,255,255,.55) 1px,
+            transparent 1px
+        );
+
+    background-size:80px 80px;
+
+    opacity:.18;
+
+}
+
+
+/* ==========================================
+
+BUTTON DEPTH
+
+========================================== */
+
+.btn-primary{
+
+    border:
+
+        1px solid rgba(255,255,255,.18);
+
+}
+
+.btn-primary:hover{
+
+    transform:
+
+        translateY(-6px)
+
+        scale(1.03);
+
+}
+
+
+/* ==========================================
+
+PREMIUM NAVIGATION
+
+========================================== */
+
+nav a{
+
+    overflow:hidden;
+
+}
+
+nav a::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+
+            120deg,
+
+            transparent,
+
+            rgba(255,255,255,.45),
+
+            transparent
+
+        );
+
+    transform:translateX(-130%);
+
+    transition:.8s;
+
+}
+
+nav a:hover::before{
+
+    transform:translateX(130%);
+
+}
+
+
+/* ==========================================
+
+CATEGORY ICON GLOW
+
+========================================== */
+
+.category-card h3{
+
+    position:relative;
+
+}
+
+.category-card h3::after{
+
+    content:"";
+
+    display:block;
+
+    width:42px;
+
+    height:3px;
+
+    margin-top:14px;
+
+    border-radius:999px;
+
+    background:
+
+        linear-gradient(
+
+            90deg,
+
+            var(--secondary),
+
+            var(--accent)
+
+        );
+
+}
+
+
+/* ==========================================
+
+SOFTWARE CARD SHIMMER
+
+========================================== */
+
+.software-card::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+
+            120deg,
+
+            transparent,
+
+            rgba(255,255,255,.18),
+
+            transparent
+
+        );
+
+    transform:translateX(-150%);
+
+    transition:1s;
+
+}
+
+.software-card:hover::after{
+
+    transform:translateX(150%);
+
+}
+
+
+/* ==========================================
+
+ARTICLE IMAGE EFFECT
+
+========================================== */
+
+.article-card{
+
+    isolation:isolate;
+
+}
+
+.article-card:hover{
+
+    transform:
+
+        translateY(-12px)
+
+        scale(1.01);
+
+}
+
+
+/* ==========================================
+
+UNDERSTANDING PANEL
+
+========================================== */
+
+.understanding-step{
+
+    position:relative;
+
+}
+
+.understanding-step:hover{
+
+    border-color:
+
+        rgba(63,208,201,.45);
+
+}
+
+
+/* ==========================================
+
+TRUST GRID
+
+========================================== */
+
+.trust-grid article:hover{
+
+    transform:
+
+        translateY(-10px)
+
+        rotate(-.3deg);
+
+}
+
+
+/* ==========================================
+
+SECTION LABEL
+
+========================================== */
+
+.section-label{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.section-label::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+
+            120deg,
+
+            transparent,
+
+            rgba(255,255,255,.45),
+
+            transparent
+
+        );
+
+    transform:translateX(-130%);
+
+    transition:1s;
+
+}
+
+.section-label:hover::before{
+
+    transform:translateX(130%);
+
+}
+
+
+/* ==========================================
+
+FOOTER GLOW
+
+========================================== */
+
+.footer-content{
+
+    position:relative;
+
+}
+
+.footer-content::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:320px;
+
+    height:320px;
+
+    left:50%;
+
+    top:-160px;
+
+    transform:translateX(-50%);
+
+    border-radius:50%;
+
+    background:
+
+        radial-gradient(
+
+            rgba(63,208,201,.12),
+
+            transparent 70%
+
+        );
+
+    pointer-events:none;
+
+}
+
+
+/* ==========================================
+
+IMAGE PREMIUM QUALITY
+
+========================================== */
+
+img{
+
+    image-rendering:auto;
+
+    backface-visibility:hidden;
+
+}
+
+
+/* ==========================================
+
+SMOOTH RENDERING
+
+========================================== */
+
+body{
+
+    -webkit-font-smoothing:antialiased;
+
+    text-rendering:optimizeLegibility;
+
+}
