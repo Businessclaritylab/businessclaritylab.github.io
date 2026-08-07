@@ -374,7 +374,7 @@ nav a.active::after {
 
     max-width:700px;
 
-    margin:0 auto 60px;
+    margin:0 auto 70px;
 
     text-align:center;
 
@@ -394,15 +394,33 @@ nav a.active::after {
 }
 
 .section-header h2{
-    margin-bottom:24px;
+
     font-size:var(--text-2xl);
-    font-weight:var(--weight-bold);
+
+    font-weight:var(--weight-extrabold);
+
+    line-height:1.2;
+
+    letter-spacing:-1px;
+
     color:var(--primary);
+
+    margin-bottom:24px;
+
 }
 
 .section-header p{
-    color:var(--text-light);
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    font-size:1.2rem;
+
+    color:#5f6b7a;
+
     line-height:1.8;
+
 }
 /* ==========================================
    5. CATEGORY PREVIEW
@@ -410,32 +428,6 @@ nav a.active::after {
 
 .categories-preview {
    margin-bottom: var(--space-2xl);
-}
-
-.categories-preview h2{
-
-    text-align: center;
-
-    font-size: var(--text-2xl);
-
-    color: var(--primary);
-
-    margin-bottom: 24px;
-
-}
-
-.categories-preview p{
-
-    max-width: 700px;
-
-    margin: 24px auto 60px;
-
-    text-align: center;
-
-    font-size: 1.2rem;
-
-    color: #5f6b7a;
-
 }
 
 .category-grid {
@@ -493,40 +485,6 @@ nav a.active::after {
     padding:90px 10%;
 
     background:white;
-
-}
-
-.featured-articles h2{
-
-    font-size: var(--text-2xl);
-
-    font-weight: var(--weight-extrabold);
-
-    line-height: 1.2;
-
-    letter-spacing: -1px;
-
-    color: var(--primary);
-
-    text-align: center;
-
-    margin-bottom: 24px;
-
-}
-
-.featured-articles > p {
-
-    font-size: 1.2rem;
-
-    color: #5f6b7a;
-
-    max-width: 700px;
-
-    margin-top: 24px;
-
-    margin-bottom: 60px;
-
-    text-align: center;
 
 }
 
@@ -653,38 +611,6 @@ footer {
     background: #ffffff;
 }
 
-.why-trust h2 {
-
-    font-size: var(--text-2xl);
-
-    font-weight: var(--weight-extrabold);
-
-    line-height: 1.2;
-
-    letter-spacing: -1px;
-
-    color: var(--primary);
-
-    text-align: center;
-
-    margin-bottom: 24px;
-
-}
-
-.section-intro{
-
-    font-size: 1.2rem;
-
-    color: #5f6b7a;
-
-    max-width: 700px;
-
-    margin: 28px auto 60px;
-
-    text-align: center;
-
-}
-
 .trust-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -780,38 +706,6 @@ footer {
 
 .understanding-panel{
     padding:100px 0;
-}
-
-.understanding-panel h2{
-
-    font-size: var(--text-2xl);
-
-    font-weight: var(--weight-extrabold);
-
-    line-height: 1.2;
-
-    letter-spacing: -1px;
-
-    color: var(--primary);
-
-    text-align: center;
-
-    margin-bottom: 24px;
-
-}
-
-.understanding-panel .section-intro{
-
-    max-width:700px;
-
-    margin:0 auto 60px;
-
-    text-align:center;
-
-    font-size:1.2rem;
-
-    color:#5f6b7a;
-
 }
 
 .understanding-grid{
