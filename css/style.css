@@ -118,17 +118,53 @@ body{
 
     color:var(--text);
 
+    overflow-x:hidden;
+
     background:
 
-        radial-gradient(circle at top right,
-        rgba(63,208,201,.18),
+        radial-gradient(circle at 15% 12%,
+        rgba(63,208,201,.22),
+        transparent 26%),
+
+        radial-gradient(circle at 88% 8%,
+        rgba(46,175,125,.18),
+        transparent 22%),
+
+        radial-gradient(circle at 80% 85%,
+        rgba(2,53,60,.12),
         transparent 34%),
 
-        radial-gradient(circle at bottom left,
-        rgba(46,175,125,.10),
-        transparent 30%),
+        radial-gradient(circle at 5% 90%,
+        rgba(125,243,240,.20),
+        transparent 28%),
 
-        var(--background);
+        linear-gradient(
+            180deg,
+            #F9FFFF,
+            #EEF8F9 45%,
+            #E7F5F6 100%
+        );
+
+}
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    opacity:.03;
+
+    background-image:
+        radial-gradient(#02353C 1px, transparent 1px);
+
+    background-size:24px 24px;
+
+    z-index:-2;
 
 }
 
@@ -172,15 +208,17 @@ header{
 
     padding:22px 80px;
 
-    background:rgba(255,255,255,.70);
+    background:rgba(255,255,255,.62);
 
-    backdrop-filter:blur(18px);
+    backdrop-filter:blur(22px);
 
     border-bottom:1px solid rgba(63,208,201,.12);
 
     box-shadow:
 
-        0 6px 30px rgba(2,53,60,.04);
+        0 8px 40px rgba(2,53,60,.06),
+
+        inset 0 1px rgba(255,255,255,.55);
 
 }
 
@@ -191,7 +229,7 @@ header{
 
 .site-name{
 
-    font-size:2rem;
+    font-size:2.1rem;
 
     font-weight:800;
 
@@ -199,15 +237,23 @@ header{
 
     letter-spacing:-1px;
 
+    text-shadow:
+
+        0 0 20px rgba(63,208,201,.18);
+
 }
 
 .logo p:last-child{
 
     margin-top:6px;
 
-    color:var(--text-light);
+    color:var(--secondary);
 
-    letter-spacing:.03em;
+    font-size:.95rem;
+
+    letter-spacing:.08em;
+
+    text-transform:uppercase;
 
 }
 
@@ -224,6 +270,12 @@ nav a{
 
     position:relative;
 
+    display:inline-block;
+
+    padding:12px 16px;
+
+    border-radius:999px;
+
     color:var(--text);
 
     font-weight:600;
@@ -234,7 +286,9 @@ nav a{
 
 nav a:hover{
 
-    color:var(--secondary);
+    color:var(--primary);
+
+    background:rgba(193,246,237,.45);
 
 }
 
@@ -244,25 +298,32 @@ nav a::after{
 
     position:absolute;
 
-    left:0;
+    left:18px;
 
-    bottom:-8px;
+    right:18px;
 
-    width:0;
+    bottom:6px;
 
     height:2px;
 
-    background:var(--accent);
+    transform:scaleX(0);
+
+    background:linear-gradient(
+        90deg,
+        var(--secondary),
+        var(--accent)
+    );
 
     transition:.35s;
+
+    border-radius:999px;
 
 }
 
 nav a:hover::after,
-
 nav a.active::after{
 
-    width:100%;
+    transform:scaleX(1);
 
 }
 
@@ -296,27 +357,71 @@ nav a.active{
 
 .btn-primary{
 
-    background:linear-gradient(
-        135deg,
-        var(--secondary),
-        var(--accent)
-    );
+    position:relative;
+
+    overflow:hidden;
+
+    background:
+
+        linear-gradient(
+
+            135deg,
+
+            var(--secondary),
+
+            var(--accent)
+
+        );
 
     color:white;
 
     box-shadow:
 
-        0 10px 30px rgba(46,175,125,.25);
+        0 15px 35px rgba(46,175,125,.28);
+
+}
+
+.btn-primary::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+        linear-gradient(
+
+            120deg,
+
+            transparent,
+
+            rgba(255,255,255,.35),
+
+            transparent
+
+        );
+
+    transform:translateX(-130%);
+
+    transition:.7s;
+
+}
+
+.btn-primary:hover::before{
+
+    transform:translateX(130%);
 
 }
 
 .btn-primary:hover{
 
-    transform:translateY(-4px);
+    transform:translateY(-5px);
 
     box-shadow:
 
-        0 20px 50px rgba(46,175,125,.35);
+        0 22px 60px rgba(46,175,125,.35);
 
 }
 
@@ -384,33 +489,41 @@ nav a.active{
 
     margin:var(--space-2xl) auto;
 
-    padding:70px;
+    padding:80px;
 
-    border-radius:34px;
+    border-radius:36px;
 
     background:
 
-    radial-gradient(circle at top right,
+        radial-gradient(circle at top right,
 
-    rgba(63,208,201,.28),
+            rgba(63,208,201,.26),
 
-    transparent 38%),
+            transparent 28%),
 
-    linear-gradient(
+        radial-gradient(circle at bottom left,
 
-        135deg,
+            rgba(46,175,125,.18),
 
-        #FFFFFF,
+            transparent 34%),
 
-        #F7FEFE
+        linear-gradient(
 
-    );
+            145deg,
 
-    border:1px solid rgba(63,208,201,.15);
+            rgba(255,255,255,.95),
+
+            rgba(247,255,255,.88)
+
+        );
+
+    backdrop-filter:blur(22px);
+
+    border:1px solid rgba(63,208,201,.18);
 
     box-shadow:
 
-        var(--shadow);
+        0 40px 90px rgba(2,53,60,.10);
 
 }
 
@@ -420,25 +533,55 @@ nav a.active{
 
     position:absolute;
 
-    width:420px;
+    width:520px;
 
-    height:420px;
+    height:520px;
+
+    right:-170px;
+
+    top:-170px;
+
+    border-radius:50%;
 
     background:
 
-    radial-gradient(
+        radial-gradient(
 
-        rgba(63,208,201,.18),
+            rgba(63,208,201,.22),
 
-        transparent 70%
+            transparent 72%
 
-    );
+        );
 
-    right:-120px;
+    animation:floatGlow 9s ease-in-out infinite;
 
-    top:-120px;
+}
+
+.hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:340px;
+
+    height:340px;
+
+    left:-120px;
+
+    bottom:-120px;
 
     border-radius:50%;
+
+    background:
+
+        radial-gradient(
+
+            rgba(46,175,125,.14),
+
+            transparent 70%
+
+        );
 
 }
 
@@ -446,21 +589,39 @@ nav a.active{
 
     max-width:760px;
 
-    font-size:4rem;
+    font-size:4.2rem;
 
-    line-height:1.05;
+    line-height:1.03;
 
     font-weight:800;
 
+    letter-spacing:-2.5px;
+
     color:var(--primary);
 
-    letter-spacing:-2px;
+    text-shadow:
+
+        0 0 30px rgba(63,208,201,.12);
 
 }
 
 .hero h1 span{
 
-    color:var(--secondary);
+    background:
+
+        linear-gradient(
+
+            90deg,
+
+            var(--secondary),
+
+            var(--accent)
+
+        );
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
 
 }
 
@@ -906,5 +1067,30 @@ footer {
     max-width:700px;
 
     margin:32px auto 0;
+
+}
+
+@keyframes floatGlow{
+
+    0%{
+
+        transform:
+            translateY(0px);
+
+    }
+
+    50%{
+
+        transform:
+            translateY(25px);
+
+    }
+
+    100%{
+
+        transform:
+            translateY(0px);
+
+    }
 
 }
