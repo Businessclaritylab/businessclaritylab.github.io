@@ -1,2 +1,2 @@
-# businessclaritylab.github.io
-Business Clarity Lab | Understanding Before Investing.
+# businesslenslab.github.io
+Business Lens Lab | Understanding Before Investing.
