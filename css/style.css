@@ -2927,26 +2927,16 @@ CARD FLOAT
 
 
 /* ==========================================
-
 PREMIUM HOVER LIFT
-
 ========================================== */
 
-.card:hover,
-.category-card:hover,
-.article-card:hover,
-.software-card:hover,
-.understanding-step:hover,
-.trust-grid article:hover{
+.card:hover{
 
     transform:
-
         translateY(-14px)
-
         scale(1.015);
 
 }
-
 
 /* ==========================================
 
