@@ -3613,3 +3613,381 @@ KEYFRAMES
     }
 
 }
+
+/* ==========================================
+   PHASE 4C
+   MOBILE RESPONSIVE SYSTEM
+========================================== */
+
+@media (max-width: 900px){
+
+    /* ---------- HEADER ---------- */
+
+    header{
+
+        padding:18px 30px;
+
+        flex-direction:column;
+
+        gap:18px;
+
+    }
+
+    .site-name{
+
+        font-size:1.8rem;
+
+        text-align:center;
+
+    }
+
+    .logo p:last-child{
+
+        text-align:center;
+
+    }
+
+    nav ul{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+        gap:8px;
+
+    }
+
+    nav a{
+
+        padding:9px 12px;
+
+        font-size:.9rem;
+
+    }
+
+
+    /* ---------- CONTAINER ---------- */
+
+    .container{
+
+        width:min(100% - 40px, 1200px);
+
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    .hero{
+
+        margin:40px 20px;
+
+        padding:60px 40px;
+
+    }
+
+    .hero h1{
+
+        font-size:3.2rem;
+
+    }
+
+
+    /* ---------- GRIDS ---------- */
+
+    .category-grid{
+
+        grid-template-columns:repeat(2, 1fr);
+
+    }
+
+    .article-grid{
+
+        grid-template-columns:repeat(2, 1fr);
+
+    }
+
+    .software-grid{
+
+        grid-template-columns:repeat(2, 1fr);
+
+    }
+
+}
+
+
+@media (max-width: 600px){
+
+    /* ---------- GLOBAL ---------- */
+
+    .container{
+
+        width:calc(100% - 32px);
+
+    }
+
+    section{
+
+        padding-top:70px;
+
+        padding-bottom:70px;
+
+    }
+
+
+    /* ---------- HEADER ---------- */
+
+    header{
+
+        padding:16px;
+
+        gap:14px;
+
+    }
+
+    .site-name{
+
+        font-size:1.55rem;
+
+        letter-spacing:-.5px;
+
+    }
+
+    .logo p:last-child{
+
+        font-size:.72rem;
+
+        letter-spacing:.06em;
+
+    }
+
+    nav ul{
+
+        gap:5px;
+
+    }
+
+    nav a{
+
+        padding:8px 9px;
+
+        font-size:.78rem;
+
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    .hero{
+
+        margin:24px 16px;
+
+        padding:48px 24px;
+
+        border-radius:26px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.35rem;
+
+        line-height:1.08;
+
+        letter-spacing:-1.5px;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+        line-height:1.75;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:stretch;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+    }
+
+
+    /* ---------- TRUST POINTS ---------- */
+
+    .trust-points{
+
+        flex-direction:column;
+
+        gap:12px;
+
+        margin-top:40px;
+
+    }
+
+    .trust-item{
+
+        justify-content:center;
+
+        width:100%;
+
+        padding:13px 18px;
+
+    }
+
+
+    /* ---------- SECTION HEADERS ---------- */
+
+    .section-header{
+
+        margin-bottom:50px;
+
+    }
+
+    .section-header h2{
+
+        font-size:2rem;
+
+        letter-spacing:-1px;
+
+    }
+
+    .section-header p{
+
+        font-size:1rem;
+
+        line-height:1.75;
+
+    }
+
+
+    /* ---------- ALL GRIDS BECOME SINGLE COLUMN ---------- */
+
+    .category-grid,
+
+    .article-grid,
+
+    .software-grid,
+
+    .understanding-grid,
+
+    .trust-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    /* ---------- CARDS ---------- */
+
+    .card,
+
+    .category-card,
+
+    .article-card,
+
+    .software-card,
+
+    .understanding-step,
+
+    .trust-grid article{
+
+        width:100%;
+
+        min-width:0;
+
+    }
+
+
+    /* ---------- FEATURED SECTIONS ---------- */
+
+    .featured-articles,
+
+    .featured-software,
+
+    .why-trust{
+
+        padding-left:16px;
+
+        padding-right:16px;
+
+    }
+
+
+    /* ---------- PAGE HERO ---------- */
+
+    .page-hero{
+
+        margin-left:16px;
+
+        margin-right:16px;
+
+    }
+
+    .page-hero h1{
+
+        font-size:2.35rem;
+
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    .footer-content{
+
+        padding:70px 24px 60px;
+
+    }
+
+    .footer-content h2{
+
+        font-size:2rem;
+
+    }
+
+    .footer-content p{
+
+        font-size:.95rem;
+
+    }
+
+
+    /* ---------- CONTACT FORM ---------- */
+
+    .contact-form,
+
+    .contact-form input,
+
+    .contact-form textarea,
+
+    .contact-form select{
+
+        width:100%;
+
+        max-width:100%;
+
+        min-width:0;
+
+    }
+
+
+    /* ---------- PREVENT OVERSIZED DECORATIVE ELEMENTS ---------- */
+
+    .page-hero::before{
+
+        width:320px;
+
+        height:320px;
+
+        top:-160px;
+
+    }
+
+}
