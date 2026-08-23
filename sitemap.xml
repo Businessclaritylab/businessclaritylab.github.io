@@ -1,1 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Pages -->
+  <url>
+    <loc>https://businessclaritylab.github.io/index.html</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/articles.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/categories.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/how-we-explain.html</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/resources.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/about.html</loc>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/contact.html</loc>
+    <priority>0.50</priority>
+  </url>
 
+  <!-- Silo Hubs -->
+  <url>
+    <loc>https://businessclaritylab.github.io/articles/business-operations/index.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/articles/legal-technology/index.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/articles/logistics-transport/index.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/articles/ai-productivity/index.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/articles/marketing-sales-growth/index.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://businessclaritylab.github.io/articles/ecommerce/index.html</loc>
+    <priority>0.70</priority>
+  </url>
+</urlset>
