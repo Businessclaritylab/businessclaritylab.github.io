@@ -1,5 +1,5 @@
 /* ==========================================
-   BUSINESS LENS LAB - ELITE DESIGN SYSTEM
+   BUSINESS LENS LAB - MASTER DESIGN SYSTEM
 ========================================== */
 :root {
     --primary: #02353C;
@@ -39,32 +39,33 @@ nav a.active { color: var(--primary); }
 nav a::after { content: ""; position: absolute; left: 0; bottom: -5px; width: 0; height: 2px; background: var(--accent); transition: 0.3s; }
 nav a.active::after, nav a:hover::after { width: 100%; }
 
-/* ELITE CARDS */
+/* PREMIUM CARDS - STRUCTURED LEFT-ALIGNED */
 .card, .understanding-step, .category-card, .article-card {
     background: var(--surface-card);
     border: 1.5px solid var(--border);
     border-radius: var(--radius);
-    padding: 40px;
+    padding: 40px; /* Deep padding so text never touches border */
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* FIX: LEFT ALIGNMENT */
-    text-align: left;         /* FIX: NO MORE CONE SHAPE */
+    align-items: flex-start; /* FIX: Content starts at left */
+    text-align: left;         /* FIX: Normal reading flow */
     transition: all 0.4s ease;
     box-shadow: var(--shadow);
-    min-height: 340px;
+    min-height: 350px;
     position: relative;
     overflow: hidden;
 }
 
+/* THE NEON GLOW BORDER ON HOVER */
 .card:hover, .understanding-step:hover, .category-card:hover, .article-card:hover {
     transform: translateY(-10px);
     background: #FFFFFF;
-    border-color: var(--accent); /* RESTORE: THE GLOWING BORDER */
-    box-shadow: 0 0 30px rgba(63, 208, 201, 0.4); /* RESTORE: THE GLOW */
+    border-color: var(--accent); 
+    box-shadow: 0 0 30px rgba(63, 208, 201, 0.4); 
 }
 
-/* THE STICKER LABELS */
-.article-category, .software-type, .section-label-mini {
+/* THE STICKER LABELS (TOP LEFT) */
+.article-category, .software-type, .step-number-label, .section-label-mini {
     display: inline-block;
     background: var(--accent);
     color: var(--primary-dark);
@@ -77,17 +78,17 @@ nav a.active::after, nav a:hover::after { width: 100%; }
     margin-bottom: 20px;
 }
 
-.card h3 { font-size: 1.5rem; color: var(--primary); margin-bottom: 12px; }
-.card p { color: var(--text-light); margin-bottom: 20px; }
+.card h3 { font-size: 1.5rem; color: var(--primary); margin-bottom: 12px; line-height: 1.2; }
+.card p { color: var(--text-light); margin-bottom: 20px; flex-grow: 1; }
 
-/* THE CLICK LINE */
+/* THE CLICK LINE (Pushed to bottom of card) */
 .click-moment {
     display: block;
     font-weight: 700;
     color: var(--secondary);
     border-top: 1px solid var(--border);
     padding-top: 15px;
-    margin-top: auto; /* Pushes it to the bottom of the card */
+    margin-top: auto;
     font-size: 0.95rem;
 }
 
@@ -95,15 +96,14 @@ nav a.active::after, nav a:hover::after { width: 100%; }
 .hero { max-width: 1200px; margin: 80px auto; padding: 60px 40px; border-radius: 30px; background: white; border: 1px solid var(--border); box-shadow: var(--shadow); }
 .hero h1 { font-size: 3.5rem; color: var(--primary); line-height: 1.1; margin-bottom: 20px; }
 .hero h1 span { color: var(--accent); }
-.hero p { max-width: 700px; color: var(--text-light); margin-bottom: 40px; }
-
-/* BUTTONS */
-.btn { display: inline-flex; padding: 14px 30px; border-radius: 50px; font-weight: 700; transition: 0.3s; }
-.btn-primary { background: var(--primary); color: white; }
-.btn-secondary { background: white; border: 2px solid var(--primary); color: var(--primary); }
-.btn:hover { transform: scale(1.05); box-shadow: 0 0 20px var(--accent); }
+.hero p { max-width: 700px; color: var(--text-light); margin-bottom: 40px; text-align: left; }
+.hero-buttons { display: flex; gap: 20px; flex-wrap: wrap; }
+.trust-points { display: flex; gap: 16px; margin-top: 50px; flex-wrap: wrap; }
+.trust-item { padding: 12px 18px; background: white; border: 1px solid var(--border); border-radius: 999px; font-weight: 600; font-size: 0.9rem; color: var(--primary); }
 
 /* FOOTER */
 footer { background: var(--primary-dark); color: white; padding: 80px 0; text-align: center; }
 .footer-content h2 { color: var(--accent); margin-bottom: 20px; }
-.copyright { opacity: 0.5; margin-top: 40px; font-size: 0.9rem; }
+
+/* SECTION HEADERS */
+.section-header { margin-bottom: 60px; text-align: left; }
