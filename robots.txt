@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Hand the map to the bot immediately
-Sitemap: https://businessclaritylab.github.io/sitemap.xml
+Sitemap: https://businesslenslab.com/sitemap.xml
