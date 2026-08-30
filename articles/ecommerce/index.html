@@ -13,6 +13,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../css/style.css">
+    <!-- Phase 7: Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://businesslenslab.com/index.html"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Categories",
+        "item": "https://businesslenslab.com/categories.html"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "E-commerce",
+        "item": "https://businesslenslab.com/articles/ecommerce/index.html"
+      }]
+    }
+    </script>
 </head>
 <body>
 <header>
@@ -36,6 +59,7 @@
     <section class="hero page-hero reveal">
         <div class="grid-overlay"></div>
         <div class="container">
+            <a href="../../categories.html" style="color: var(--accent); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; text-decoration: none; display: inline-block; margin-bottom: 20px;">&larr; Back to Categories</a>
             <div class="section-label">SILO: ECOMMERCE</div>
             <a href="../../categories.html" style="color: var(--accent); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; text-decoration: none;">&larr; Back to Categories</a>
             <h1>Online <span>Selling</span></h1>
