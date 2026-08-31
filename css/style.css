@@ -192,71 +192,36 @@ ul {
    2. HEADER
 ========================================== */
 
-header{
-
-    position:sticky;
-
-    top:0;
-
-    z-index:1000;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-    padding:22px 80px;
-
-    background:rgba(255,255,255,.62);
-
-    backdrop-filter:blur(22px);
-
-    border-bottom:1px solid rgba(63,208,201,.12);
-
-    box-shadow:
-
-        0 8px 40px rgba(2,53,60,.06),
-
-        inset 0 1px rgba(255,255,255,.55);
-
-}
-
-.logo {
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5% ; /* Uses percentage for better laptop/mobile balance */
+    background: rgba(255,255,255,.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    transition: all 0.3s ease;
 }
 
-.site-name{
-
-    font-size:2.1rem;
-
-    font-weight:800;
-
-    color:var(--primary);
-
-    letter-spacing:-1px;
-
-    text-shadow:
-
-        0 0 20px rgba(63,208,201,.18);
-
+.logo a {
+    display: flex;
+    align-items: center;
 }
 
-.logo p:last-child{
-
-    margin-top:6px;
-
-    color:var(--secondary);
-
-    font-size:.95rem;
-
-    letter-spacing:.08em;
-
-    text-transform:uppercase;
-
+.site-name {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: -1px;
+    line-height: 1;
 }
 
+.logo p:last-child {
+    display: none; /* We hide the CSS version because we added it directly to the HTML for better SEO control */
+}
 /* ==========================================
    3. NAVIGATION
 ========================================== */
