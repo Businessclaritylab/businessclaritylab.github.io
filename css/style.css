@@ -188,12 +188,9 @@ a {
 ul {
     list-style: none;
 }
-/* ==========================================
-   2. HEADER
-========================================== */
 
 /* ==========================================
-   HEADER & UNIFIED BRANDING
+   2. HEADER & BRAND LOCKUP (FINAL REFINEMENT)
 ========================================== */
 header {
     position: sticky;
@@ -202,37 +199,50 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 5%; /* Tightened vertical padding */
-    background: rgba(255,255,255,.90);
+    padding: 10px 5%; /* Vertical padding: 10px | Horizontal: 5% */
+    background: rgba(255, 255, 255, 0.90);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
 }
 
-.logo a {
+/* Container for the Icon and Text */
+.logo-lockup {
     display: flex;
     align-items: center;
-    gap: 8px; /* TIGHTENED: No more out-of-place space */
+    gap: 6px; /* TIGHTENED: Flask and text now feel like one unit */
     text-decoration: none;
 }
 
-.logo img {
-    height: 65px; /* LARGER: More authoritative presence */
+/* The Larger Authoritative Flask */
+.brand-icon {
+    height: 60px; /* ENLARGENED: Larger than yesterday's 45px */
     width: auto;
     display: block;
 }
 
+/* Container to stack Name and Slogan vertically */
+.brand-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .site-name {
-    font-size: 1.75rem;
-    font-weight: 700; /* FIXED: Professional, not bulky */
+    font-size: 1.6rem;
+    font-weight: 700; /* SHARP: Professional, not bulky 800 */
     color: var(--primary);
     letter-spacing: -0.5px;
-    line-height: 1;
+    line-height: 1; /* Eliminates extra vertical space */
     margin: 0;
 }
 
-/* Hide the old slogan if it's still in the CSS from earlier work */
-.logo p:last-child {
-    display: none;
+.site-slogan {
+    font-size: 0.72rem; /* Slightly smaller for an elite look */
+    font-weight: 700;
+    color: var(--secondary); /* The Emerald Green brand promise */
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-top: 2px;
 }
 
 /* ==========================================
