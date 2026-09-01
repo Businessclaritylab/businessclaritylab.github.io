@@ -192,6 +192,9 @@ ul {
    2. HEADER
 ========================================== */
 
+/* ==========================================
+   HEADER & UNIFIED BRANDING
+========================================== */
 header {
     position: sticky;
     top: 0;
@@ -199,29 +202,39 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5% ; /* Uses percentage for better laptop/mobile balance */
-    background: rgba(255,255,255,.85);
+    padding: 12px 5%; /* Tightened vertical padding */
+    background: rgba(255,255,255,.90);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
-    transition: all 0.3s ease;
 }
 
 .logo a {
     display: flex;
     align-items: center;
+    gap: 8px; /* TIGHTENED: No more out-of-place space */
+    text-decoration: none;
+}
+
+.logo img {
+    height: 65px; /* LARGER: More authoritative presence */
+    width: auto;
+    display: block;
 }
 
 .site-name {
-    font-size: 1.8rem;
-    font-weight: 800;
+    font-size: 1.75rem;
+    font-weight: 700; /* FIXED: Professional, not bulky */
     color: var(--primary);
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
     line-height: 1;
+    margin: 0;
 }
 
+/* Hide the old slogan if it's still in the CSS from earlier work */
 .logo p:last-child {
-    display: none; /* We hide the CSS version because we added it directly to the HTML for better SEO control */
+    display: none;
 }
+
 /* ==========================================
    3. NAVIGATION
 ========================================== */
