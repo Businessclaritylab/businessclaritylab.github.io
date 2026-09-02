@@ -4007,90 +4007,101 @@ KEYFRAMES
 }
 
 /* ==========================================
-   7. RESEARCH PUBLICATION STYLES (LONG-FORM)
+   7. RESEARCH PUBLICATION STYLES (REFINED)
 ========================================== */
 
-/* Scoped to the Article Page to prevent bulky text */
-.article-page .article-container {
-    max-width: 800px; /* Standard reading width for focus */
+/* The Main Page Background for Articles */
+.article-page {
+    background-color: var(--background);
+}
+
+/* Wider Container - No longer "squeezed" */
+.article-container {
+    max-width: 1100px; 
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 40px 20px;
 }
 
-.article-header {
+/* Header styled as a Premium Card */
+.article-header-card {
+    background: var(--surface-card);
+    backdrop-filter: blur(15px);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 40px;
     margin-bottom: 40px;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 30px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative; /* Fixed: Stays at the top, moves with scroll */
 }
 
-.article-meta {
+.article-meta-group {
     display: flex;
-    gap: 25px;
-    font-size: 0.9rem;
-    font-weight: 700;
-    color: var(--text-light);
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.meta-label {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: var(--secondary);
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 20px;
 }
 
+.meta-value {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+/* Typography Refinement */
 .article-content {
-    line-height: 1.8;
-    color: var(--text);
+    background: transparent;
+    text-align: left; /* Left to Right flow */
 }
 
 .article-content h1 {
-    font-size: 2.8rem;
+    font-size: 2.5rem; /* Professional scale */
     color: var(--primary);
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 .article-content h2 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     color: var(--primary);
-    margin: 50px 0 20px;
-    border-left: 4px solid var(--accent);
-    padding-left: 20px;
-}
-
-.article-content h3 {
-    font-size: 1.35rem;
-    color: var(--primary-dark);
-    margin: 30px 0 15px;
+    margin: 45px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent); /* Visual appeal restored */
+    display: inline-block;
 }
 
 .article-content p {
-    font-size: 1.15rem; /* Sophisticated reading size */
+    font-size: 1.05rem; /* Smaller, professional reading size */
+    line-height: 1.7;
     margin-bottom: 25px;
+    color: var(--text);
+    max-width: 95%; /* Wider flow */
 }
 
-/* Subtle Research Insights (NOT chunky cards) */
-.lab-insight-box {
-    background: #fdfdfd;
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 25px;
-    margin: 35px 0;
-}
-
-.lab-insight-box h4 {
-    color: var(--secondary);
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
-}
-
-/* The Final Verdict Area */
-.formal-verdict-panel {
-    background: var(--background);
-    border-radius: 24px;
-    padding: 45px;
-    margin-top: 60px;
-    border: 1px solid var(--border);
-}
-
-.formal-verdict-panel h3 {
-    margin-top: 0;
+/* Lab Insights (Subtle Brand Callouts) */
+.lab-callout {
+    border-left: 5px solid var(--secondary);
+    background: rgba(46, 175, 125, 0.05);
+    padding: 20px 30px;
+    margin: 30px 0;
+    border-radius: 0 12px 12px 0;
+    font-style: italic;
 }
