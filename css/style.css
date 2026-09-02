@@ -4010,84 +4010,87 @@ KEYFRAMES
    7. RESEARCH PUBLICATION STYLES (LONG-FORM)
 ========================================== */
 
-/* The Reading Container - Narrower for focus */
-.article-container {
-    max-width: 850px;
+/* Scoped to the Article Page to prevent bulky text */
+.article-page .article-container {
+    max-width: 800px; /* Standard reading width for focus */
     margin: 0 auto;
     padding: 60px 20px;
 }
 
-.article-body {
-    background: #FFFFFF;
+.article-header {
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 30px;
+}
+
+.article-meta {
+    display: flex;
+    gap: 25px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.article-content {
     line-height: 1.8;
     color: var(--text);
 }
 
-/* Meta Data Line */
-.article-meta {
-    display: flex;
-    gap: 20px;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--text-light);
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 15px;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-/* Publication Typography */
-.article-body h1 {
-    font-size: 3rem;
+.article-content h1 {
+    font-size: 2.8rem;
     color: var(--primary);
     line-height: 1.2;
     margin-bottom: 20px;
-    text-align: left;
 }
 
-.article-body h2 {
-    font-size: 1.8rem;
+.article-content h2 {
+    font-size: 1.75rem;
     color: var(--primary);
     margin: 50px 0 20px;
     border-left: 4px solid var(--accent);
     padding-left: 20px;
 }
 
-.article-body h3 {
-    font-size: 1.4rem;
+.article-content h3 {
+    font-size: 1.35rem;
     color: var(--primary-dark);
     margin: 30px 0 15px;
 }
 
-.article-body p {
-    font-size: 1.15rem;
+.article-content p {
+    font-size: 1.15rem; /* Sophisticated reading size */
     margin-bottom: 25px;
-    color: var(--text);
 }
 
-/* Subtle Lab Insight Box (Replacing the chunky cards) */
-.lab-insight {
-    background: var(--background);
-    border-radius: 12px;
-    padding: 30px;
-    margin: 40px 0;
+/* Subtle Research Insights (NOT chunky cards) */
+.lab-insight-box {
+    background: #fdfdfd;
     border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 35px 0;
 }
 
-.lab-insight h4 {
+.lab-insight-box h4 {
     color: var(--secondary);
-    text-transform: uppercase;
     font-size: 0.85rem;
+    text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-bottom: 10px;
 }
 
-/* Formal Verdict Box */
-.formal-verdict {
-    border: 2px solid var(--primary);
-    padding: 40px;
-    border-radius: var(--radius);
+/* The Final Verdict Area */
+.formal-verdict-panel {
+    background: var(--background);
+    border-radius: 24px;
+    padding: 45px;
     margin-top: 60px;
-    background: #fdfdfd;
+    border: 1px solid var(--border);
+}
+
+.formal-verdict-panel h3 {
+    margin-top: 0;
 }
