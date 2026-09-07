@@ -3113,7 +3113,27 @@ ARTICLE DEPTH
     transform: scale(1.05) translateY(-10px);
     background: #fff;
     z-index: 10;
-    scroll-margin-top: 120px; /* Offset for the sticky header */
+}
+
+/* GLOBAL CARD JUMP FIX */
+.card {
+    scroll-margin-top: 180px; /* Significant clearance for the header */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* EQUAL HEIGHT FIX: Forces the description to fill space so buttons align */
+.card p {
+    flex-grow: 1;
+}
+
+/* Ensure cards stretch to fill the grid row height */
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    align-items: stretch; /* This makes all cards in a row the same height */
 }
 
 /* Ensure cards have breathing room and stable hover */
