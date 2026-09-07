@@ -3106,12 +3106,13 @@ ARTICLE DEPTH
 
 }
 
-/* Highlight the card when landed via anchor link */
-.category-card:target {
+/* Highlight any card (Category or Tool) when landed via anchor link */
+.card:target {
     border: 2px solid var(--secondary);
-    box-shadow: 0 0 50px rgba(46, 175, 125, 0.4);
-    transform: scale(1.05);
+    box-shadow: 0 0 50px rgba(46, 175, 125, 0.5);
+    transform: scale(1.05) translateY(-10px);
     background: #fff;
+    z-index: 10;
 }
 
 /* ==========================================
