@@ -3113,6 +3113,13 @@ ARTICLE DEPTH
     transform: scale(1.05) translateY(-10px);
     background: #fff;
     z-index: 10;
+    scroll-margin-top: 120px; /* Offset for the sticky header */
+}
+
+/* Ensure cards have breathing room and stable hover */
+.article-grid {
+    gap: 40px; /* Increases space between cards to stop touching */
+    align-items: start;
 }
 
 /* ==========================================
