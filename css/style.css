@@ -1030,6 +1030,21 @@ TRUST PILLS
     box-shadow: var(--shadow);
 }
 
+/* Dimmed atmospheric backdrop card for narrative storytelling */
+.narrative-backdrop-card {
+    position: relative;
+    overflow: hidden;
+    margin: 45px 0;
+    padding: 48px 36px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @media (max-width: 768px) {
     .dashboard-analysis-panel {
         grid-template-columns: 1fr;
