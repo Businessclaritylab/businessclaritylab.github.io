@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Core Pages -->
+  <!-- Core Static Pages -->
   <url>
-    <loc>https://businesslenslab.com/index.html</loc>
+    <loc>https://businesslenslab.com/</loc>
     <priority>1.00</priority>
   </url>
   <url>
@@ -54,5 +54,71 @@
   <url>
     <loc>https://businesslenslab.com/articles/ecommerce/index.html</loc>
     <priority>0.70</priority>
+  </url>
+
+  <!-- Foundational Research Guides -->
+  <url>
+    <loc>https://businesslenslab.com/articles/business-operations/what-is-crm.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ai-productivity/what-is-an-ai-agent.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/logistics-transport/what-is-tms.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/legal-technology/what-is-legal-practice-management.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/marketing-sales-growth/what-is-marketing-automation.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ecommerce/what-is-an-ecommerce-platform.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- E-commerce Silo Master & Tool Lab Reports -->
+  <url>
+    <loc>https://businesslenslab.com/articles/ecommerce/platform-selection-guide.html</loc>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ecommerce/shopify-review.html</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ecommerce/woocommerce-review.html</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ecommerce/hostinger-woocommerce-review.html</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ecommerce/siteground-woocommerce-review.html</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ecommerce/elementor-woocommerce-review.html</loc>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- AI & Productivity Silo Tool Lab Reports -->
+  <url>
+    <loc>https://businesslenslab.com/articles/ai-productivity/make-automation-review.html</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ai-productivity/zapier-automation-review.html</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ai-productivity/autogpt-review.html</loc>
+    <priority>0.85</priority>
   </url>
 </urlset>
