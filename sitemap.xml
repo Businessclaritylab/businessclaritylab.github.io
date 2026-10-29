@@ -108,7 +108,11 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- AI & Productivity Silo Tool Lab Reports -->
+  <!-- AI & Productivity Silo Tool Lab Reports & Blueprint -->
+  <url>
+    <loc>https://businesslenslab.com/articles/ai-productivity/ai-agents-comparison-blueprint.html</loc>
+    <priority>0.95</priority>
+  </url>
   <url>
     <loc>https://businesslenslab.com/articles/ai-productivity/make-automation-review.html</loc>
     <priority>0.85</priority>
@@ -119,6 +123,10 @@
   </url>
   <url>
     <loc>https://businesslenslab.com/articles/ai-productivity/autogpt-review.html</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://businesslenslab.com/articles/ai-productivity/devin-review.html</loc>
     <priority>0.85</priority>
   </url>
 </urlset>
