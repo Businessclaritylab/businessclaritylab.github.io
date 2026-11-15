@@ -1,0 +1,67 @@
+# Business Lens Lab
+
+> Independent first-principles research laboratory helping business owners, legal professionals, fleet operators, and builders understand software, AI agents, and digital systems before investing.
+
+- Website: https://businesslenslab.com/
+- Methodology: https://businesslenslab.com/how-we-explain.html
+- Full Research Library: https://businesslenslab.com/articles.html
+- Categories Hub: https://businesslenslab.com/categories.html
+- Resources & Blueprints: https://businesslenslab.com/resources.html
+- XML Sitemap: https://businesslenslab.com/sitemap.xml
+
+## Editorial Standards
+- Every review includes plain-English glossaries, live dashboard audits, three-year total cost of ownership math, verified case studies, and unvarnished limitations.
+- Zero paid placements. Independent evaluations backed by transparent affiliate disclosure (https://businesslenslab.com/affiliate-disclosure.html).
+
+## Research Silos & Live Lab Reports
+
+### Business Operations
+- Silo Hub: https://businesslenslab.com/articles/business-operations/index.html
+- What is CRM?: https://businesslenslab.com/articles/business-operations/what-is-crm.html
+- HubSpot CRM Review (Digital Receptionist): https://businesslenslab.com/articles/business-operations/hubspot-crm-review.html
+- Pipedrive Review (Sales Deal Closer): https://businesslenslab.com/articles/business-operations/pipedrive-review.html
+- Monday.com Review (Team Project Manager): https://businesslenslab.com/articles/business-operations/monday-review.html
+- ClickUp Review (Team Workflow Coordinator): https://businesslenslab.com/articles/business-operations/clickup-review.html
+- Xero Review (Automated Bookkeeper): https://businesslenslab.com/articles/business-operations/xero-review.html
+
+### Marketing, Sales & Growth
+- Silo Hub: https://businesslenslab.com/articles/marketing-sales-growth/index.html
+- What is Marketing Automation?: https://businesslenslab.com/articles/marketing-sales-growth/what-is-marketing-automation.html
+- Buffer Review (Social Media Dispatch Coordinator): https://businesslenslab.com/articles/marketing-sales-growth/buffer-review.html
+- Hootsuite Review (Enterprise Social Listening Director): https://businesslenslab.com/articles/marketing-sales-growth/hootsuite-review.html
+- Social Command Blueprint (Buffer vs Hootsuite): https://businesslenslab.com/articles/marketing-sales-growth/social-command-blueprint.html
+- MailerLite Review (Automated Email Marketing Specialist): https://businesslenslab.com/articles/marketing-sales-growth/mailerlite-review.html
+- Brevo Review (Multi-Channel Lifecycle Director): https://businesslenslab.com/articles/marketing-sales-growth/brevo-review.html
+- Email Engine Blueprint (MailerLite vs Brevo): https://businesslenslab.com/articles/marketing-sales-growth/email-engine-blueprint.html
+- GoHighLevel Review (Full-Stack Revenue Operations): https://businesslenslab.com/articles/marketing-sales-growth/gohighlevel-review.html
+- ClickFunnels Review (Direct-Response Conversion Specialist): https://businesslenslab.com/articles/marketing-sales-growth/clickfunnels-review.html
+- Conversion Engine Blueprint (GoHighLevel vs ClickFunnels): https://businesslenslab.com/articles/marketing-sales-growth/conversion-engine-blueprint.html
+
+### AI, Automation & Productivity
+- Silo Hub: https://businesslenslab.com/articles/ai-productivity/index.html
+- What is an AI Agent?: https://businesslenslab.com/articles/ai-productivity/what-is-an-ai-agent.html
+- Make.com Review (Visual Automation Engine): https://businesslenslab.com/articles/ai-productivity/make-automation-review.html
+- Zapier Review (Linear Automation Pioneer): https://businesslenslab.com/articles/ai-productivity/zapier-automation-review.html
+- AutoGPT Review (Autonomous Goal Engine): https://businesslenslab.com/articles/ai-productivity/autogpt-review.html
+- Devin Review (Autonomous Software Engineer): https://businesslenslab.com/articles/ai-productivity/devin-review.html
+- Autonomous Agent Blueprint (AutoGPT vs Devin): https://businesslenslab.com/articles/ai-productivity/ai-agents-comparison-blueprint.html
+
+### E-commerce & Web Infrastructure
+- Silo Hub: https://businesslenslab.com/articles/ecommerce/index.html
+- What is an E-commerce Platform?: https://businesslenslab.com/articles/ecommerce/what-is-an-ecommerce-platform.html
+- Master Platform Selection Blueprint (5-Platform Audit): https://businesslenslab.com/articles/ecommerce/platform-selection-guide.html
+- Shopify Review: https://businesslenslab.com/articles/ecommerce/shopify-review.html
+- WooCommerce Review: https://businesslenslab.com/articles/ecommerce/woocommerce-review.html
+- Hostinger WooCommerce Hosting Review: https://businesslenslab.com/articles/ecommerce/hostinger-woocommerce-review.html
+- SiteGround Managed Hosting Review: https://businesslenslab.com/articles/ecommerce/siteground-woocommerce-review.html
+- Elementor WooCommerce Builder Review: https://businesslenslab.com/articles/ecommerce/elementor-woocommerce-review.html
+
+### Logistics & Transport
+- Silo Hub: https://businesslenslab.com/articles/logistics-transport/index.html
+- What is TMS?: https://businesslenslab.com/articles/logistics-transport/what-is-tms.html
+- Route4Me Review (Fleet Route Coordinator): https://businesslenslab.com/articles/logistics-transport/route4me-review.html
+
+### Legal Technology
+- Silo Hub: https://businesslenslab.com/articles/legal-technology/index.html
+- What is Legal Practice Management Software?: https://businesslenslab.com/articles/legal-technology/what-is-legal-practice-management.html
+- Clio Review (Digital Legal Office Manager): https://businesslenslab.com/articles/legal-technology/clio-review.html
