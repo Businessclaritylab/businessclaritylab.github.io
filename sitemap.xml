@@ -1,132 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Core Static Pages -->
-  <url>
-    <loc>https://businesslenslab.com/</loc>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles.html</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/categories.html</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/how-we-explain.html</loc>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/resources.html</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/about.html</loc>
-    <priority>0.50</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/contact.html</loc>
-    <priority>0.50</priority>
-  </url>
+  <url><loc>https://businesslenslab.com/</loc><priority>1.00</priority></url>
+  <url><loc>https://businesslenslab.com/articles.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/categories.html</loc><priority>0.85</priority></url>
+  <url><loc>https://businesslenslab.com/how-we-explain.html</loc><priority>0.85</priority></url>
+  <url><loc>https://businesslenslab.com/resources.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/about.html</loc><priority>0.60</priority></url>
+  <url><loc>https://businesslenslab.com/contact.html</loc><priority>0.60</priority></url>
 
   <!-- Silo Hubs -->
-  <url>
-    <loc>https://businesslenslab.com/articles/business-operations/index.html</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/legal-technology/index.html</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/logistics-transport/index.html</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ai-productivity/index.html</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/marketing-sales-growth/index.html</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ecommerce/index.html</loc>
-    <priority>0.70</priority>
-  </url>
+  <url><loc>https://businesslenslab.com/articles/business-operations/index.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/legal-technology/index.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/logistics-transport/index.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ai-productivity/index.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/index.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ecommerce/index.html</loc><priority>0.80</priority></url>
 
-  <!-- Foundational Research Guides -->
-  <url>
-    <loc>https://businesslenslab.com/articles/business-operations/what-is-crm.html</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ai-productivity/what-is-an-ai-agent.html</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/logistics-transport/what-is-tms.html</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/legal-technology/what-is-legal-practice-management.html</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/marketing-sales-growth/what-is-marketing-automation.html</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ecommerce/what-is-an-ecommerce-platform.html</loc>
-    <priority>0.80</priority>
-  </url>
+  <!-- Business Operations Silo -->
+  <url><loc>https://businesslenslab.com/articles/business-operations/what-is-crm.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/business-operations/hubspot-crm-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/business-operations/pipedrive-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/business-operations/monday-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/business-operations/clickup-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/business-operations/xero-review.html</loc><priority>0.90</priority></url>
 
-  <!-- E-commerce Silo Master & Tool Lab Reports -->
-  <url>
-    <loc>https://businesslenslab.com/articles/ecommerce/platform-selection-guide.html</loc>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ecommerce/shopify-review.html</loc>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ecommerce/woocommerce-review.html</loc>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ecommerce/hostinger-woocommerce-review.html</loc>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ecommerce/siteground-woocommerce-review.html</loc>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ecommerce/elementor-woocommerce-review.html</loc>
-    <priority>0.85</priority>
-  </url>
+  <!-- Marketing, Sales & Growth Silo -->
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/what-is-marketing-automation.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/buffer-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/hootsuite-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/social-command-blueprint.html</loc><priority>0.95</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/mailerlite-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/brevo-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/email-engine-blueprint.html</loc><priority>0.95</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/gohighlevel-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/clickfunnels-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/marketing-sales-growth/conversion-engine-blueprint.html</loc><priority>0.95</priority></url>
 
-  <!-- AI & Productivity Silo Tool Lab Reports & Blueprint -->
-  <url>
-    <loc>https://businesslenslab.com/articles/ai-productivity/ai-agents-comparison-blueprint.html</loc>
-    <priority>0.95</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ai-productivity/make-automation-review.html</loc>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ai-productivity/zapier-automation-review.html</loc>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ai-productivity/autogpt-review.html</loc>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://businesslenslab.com/articles/ai-productivity/devin-review.html</loc>
-    <priority>0.85</priority>
-  </url>
+  <!-- AI & Productivity Silo -->
+  <url><loc>https://businesslenslab.com/articles/ai-productivity/what-is-an-ai-agent.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ai-productivity/make-automation-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ai-productivity/zapier-automation-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ai-productivity/autogpt-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ai-productivity/devin-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ai-productivity/ai-agents-comparison-blueprint.html</loc><priority>0.95</priority></url>
+
+  <!-- E-commerce Silo -->
+  <url><loc>https://businesslenslab.com/articles/ecommerce/what-is-an-ecommerce-platform.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ecommerce/platform-selection-guide.html</loc><priority>0.95</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ecommerce/shopify-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ecommerce/woocommerce-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ecommerce/hostinger-woocommerce-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ecommerce/siteground-woocommerce-review.html</loc><priority>0.90</priority></url>
+  <url><loc>https://businesslenslab.com/articles/ecommerce/elementor-woocommerce-review.html</loc><priority>0.90</priority></url>
+
+  <!-- Logistics & Transport Silo -->
+  <url><loc>https://businesslenslab.com/articles/logistics-transport/what-is-tms.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/logistics-transport/route4me-review.html</loc><priority>0.90</priority></url>
+
+  <!-- Legal Technology Silo -->
+  <url><loc>https://businesslenslab.com/articles/legal-technology/what-is-legal-practice-management.html</loc><priority>0.80</priority></url>
+  <url><loc>https://businesslenslab.com/articles/legal-technology/clio-review.html</loc><priority>0.90</priority></url>
 </urlset>
