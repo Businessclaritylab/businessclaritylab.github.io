@@ -6,42 +6,58 @@
     <title>E-commerce Research & Guides | Business Lens Lab</title>
     <meta name="description" content="Platforms, payment systems and online selling tools for modern businesses explained simply and put under the lens.">
     <link rel="canonical" href="https://businesslenslab.com/articles/ecommerce/index.html">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="author" content="Business Lens Lab">
     <meta name="theme-color" content="#02353C">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/style.css">
-    <!-- Phase 7: Breadcrumb Schema -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Business Lens Lab">
+    <meta property="og:title" content="E-commerce Research & Guides | Business Lens Lab">
+    <meta property="og:description" content="Independent audits of Shopify, WooCommerce, Hostinger, SiteGround, and Elementor for modern online stores.">
+    <meta property="og:url" content="https://businesslenslab.com/articles/ecommerce/index.html">
+    <meta property="og:image" content="https://businesslenslab.com/images/business-lens-lab-ecommerce-platforms-comparison-logos.webp">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="E-commerce Research & Guides | Business Lens Lab">
+    <meta name="twitter:description" content="Independent audits of Shopify, WooCommerce, Hostinger, SiteGround, and Elementor for modern online stores.">
+    <meta name="twitter:image" content="https://businesslenslab.com/images/business-lens-lab-ecommerce-platforms-comparison-logos.webp">
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://businesslenslab.com/index.html"
-      },{
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Categories",
-        "item": "https://businesslenslab.com/categories.html"
-      },{
-        "@type": "ListItem",
-        "position": 3,
-        "name": "E-commerce",
-        "item": "https://businesslenslab.com/articles/ecommerce/index.html"
-      }]
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "name": "E-commerce & Online Selling Research Hub",
+          "url": "https://businesslenslab.com/articles/ecommerce/index.html",
+          "description": "Lab reports and benchmarks covering Shopify, WooCommerce, Hostinger, SiteGround, and Elementor."
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://businesslenslab.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Categories", "item": "https://businesslenslab.com/categories.html" },
+            { "@type": "ListItem", "position": 3, "name": "E-commerce", "item": "https://businesslenslab.com/articles/ecommerce/index.html" }
+          ]
+        }
+      ]
     }
     </script>
 </head>
 <body>
 <header>
     <div class="logo">
-        <a href="../../index.html" class="logo-lockup">
-            <img src="../../images/business-lens-lab-logo.png" alt="Business Lens Lab Logo" class="brand-icon">
+        <a href="/index.html" class="logo-lockup">
+            <img src="/images/business-lens-lab-logo.png" alt="Business Lens Lab Logo" class="brand-icon">
             <div class="brand-text-wrapper">
                 <p class="site-name">Business Lens Lab</p>
                 <p class="site-slogan">Understanding Before Investing.</p>
@@ -78,6 +94,16 @@
                 <p>Select a guide below to see our findings on e-commerce platforms and tools.</p>
             </div>
             <div class="article-grid stagger">
+                <!-- 00. FOUNDATIONAL GUIDE -->
+                <article id="ecommerce-foundation-lab" class="card article-card">
+                    <span class="article-category">RESEARCH</span>
+                    <div style="margin: 12px 0 10px;">
+                        <h3 style="margin-bottom: 0;">What is an E-commerce Platform?</h3>
+                    </div>
+                    <p>A first-principles breakdown of automated fulfillment logic, SaaS vs open source, and escaping manual DM selling.</p>
+                    <a href="what-is-an-ecommerce-platform.html">Read Lab Report →</a>
+                </article>
+
                 <!-- 01. THE SHOPIFY CARD -->
                 <article id="shopify-lab" class="card article-card">
                     <span class="article-category">RESEARCH</span>
@@ -143,7 +169,6 @@
                     <p>A Lead Researcher audit of the drag-and-drop design engine that dismantles rigid WordPress templates. Discover how to build a bespoke store without code.</p>
                     <a href="elementor-woocommerce-review.html">Read Lab Report →</a>
                 </article>
-            </div>
             </div>
         </div>
     </section>
