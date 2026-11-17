@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css?v=3.0">
 
     <!-- Open Graph / LinkedIn / Facebook / WhatsApp Meta -->
     <meta property="og:type" content="article">
@@ -167,7 +167,12 @@
             </div>
         </a>
     </div>
-    <nav><ul>
+    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav id="main-nav"><ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/articles.html">Articles</a></li>
         <li><a href="/categories.html">Categories</a></li>
@@ -479,6 +484,6 @@
     </div>
 </footer>
 
-<script src="/js/script.js"></script>
+<script src="/js/script.js?v=3.0"></script>
 </body>
 </html>
