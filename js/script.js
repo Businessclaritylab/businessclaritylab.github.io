@@ -104,8 +104,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     revealTargets.forEach(el => observer.observe(el));
 
-    // Immediate sweep for above-the-fold and hash-jumped elements
+    // Immediate sweep + mobile scroll/orientation safety fallback
     revealVisibleInViewport();
+    window.addEventListener("scroll", revealVisibleInViewport, { passive: true });
+    window.addEventListener("resize", revealVisibleInViewport, { passive: true });
+    window.addEventListener("orientationchange", () => setTimeout(revealVisibleInViewport, 120));
     window.addEventListener("hashchange", () => setTimeout(revealVisibleInViewport, 60));
 
 });
