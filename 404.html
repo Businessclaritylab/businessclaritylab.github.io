@@ -26,7 +26,10 @@
             </div>
         </a>
     </div>
-    <nav><ul>
+    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+    </button>
+    <nav id="main-nav"><ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/articles.html">Articles</a></li>
         <li><a href="/categories.html">Categories</a></li>
@@ -39,12 +42,13 @@
 
 <main>
     <section class="hero page-hero reveal visible">
+        <div class="grid-overlay"></div>
         <div class="container" style="text-align:center;">
             <div class="section-label">ERROR 404</div>
             <h1>The page got <span>lost.</span></h1>
-            <p>We couldn't find the specific resource you were looking for. It may have been moved or renamed during a lab update.</p>
+            <p>We could not find the specific resource you were looking for. It may have been moved or renamed during a lab update.</p>
             
-            <div class="hero-buttons" style="justify-content:center; margin-top: 40px;">
+            <div class="hero-buttons" style="justify-content:center; margin-top: 32px;">
                 <a href="/index.html" class="btn btn-primary">Return to Hub</a>
                 <a href="/articles.html" class="btn btn-secondary">Browse Full Library</a>
             </div>
