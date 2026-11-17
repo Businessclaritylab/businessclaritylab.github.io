@@ -13,7 +13,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css?v=3.0">
     <!-- Open Graph and Social Sharing Meta -->
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Business Lens Lab">
@@ -76,7 +76,7 @@
 
 <header>
     <div class="logo">
-        <a href="../../index.html" class="logo-lockup">
+        <a href="/index.html" class="logo-lockup">
             <img src="/images/business-lens-lab-logo.png" alt="Business Lens Lab Logo" class="brand-icon">
             <div class="brand-text-wrapper">
                 <p class="site-name">Business Lens Lab</p>
@@ -84,17 +84,21 @@
             </div>
         </a>
     </div>
-    <nav><ul>
-        <li><a href="../../index.html">Home</a></li>
-        <li><a href="../../articles.html">Articles</a></li>
-        <li><a href="../../categories.html">Categories</a></li>
-        <li><a href="../../how-we-explain.html">How We Explain</a></li>
-        <li><a href="../../resources.html">Resources</a></li>
-        <li><a href="../../about.html">About</a></li>
-        <li><a href="../../contact.html">Contact</a></li>
+    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav id="main-nav"><ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/articles.html">Articles</a></li>
+        <li><a href="/categories.html">Categories</a></li>
+        <li><a href="/how-we-explain.html">How We Explain</a></li>
+        <li><a href="/resources.html">Resources</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
     </ul></nav>
 </header>
-
 <main class="article-container">
     <nav style="margin-bottom: 20px;">
         <a href="../../articles.html" style="color: var(--secondary); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; text-decoration: none;">&larr; BACK TO LIBRARY</a>
@@ -106,6 +110,14 @@
                 <div style="flex: 1; min-width: 300px;">
                     <span class="article-category" style="width: fit-content; margin-bottom: 10px;">AI RESEARCH: AGENTS</span>
                     <h1>AutoGPT: The First Architecture of Autonomous Machine Will</h1>
+
+                    <!-- THE RELATABLE JARGON-FREE RED ROLE RIBBON -->
+                    <div style="margin: 14px 0 6px; display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #8B0000 0%, #C62828 20%, #FF4D4D 48%, #D32F2F 75%, #7F0000 100%); color: #ffffff; padding: 7px 18px; border-radius: 999px; box-shadow: 0 4px 14px rgba(211, 47, 47, 0.42), inset 0 1px 2px rgba(255, 255, 255, 0.65); border: 1px solid rgba(255, 255, 255, 0.35);">
+                        <span style="font-size: 0.95rem; line-height: 1;">🎀</span>
+                        <span style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1.1px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);">
+                            Corporate Role: Autonomous Web Research Specialist
+                        </span>
+                    </div>
                 </div>
                 <div style="background: white; padding: 15px; border-radius: 12px; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; width: 120px; height: 120px;">
                     <img src="/images/business-lens-lab-autogpt-logo.webp" alt="AutoGPT Brand Logo Study" style="max-width: 100%; height: auto;">
@@ -312,6 +324,6 @@
     </div>
 </footer>
 
-<script src="../../js/script.js"></script>
+<script src="/js/script.js?v=3.0"></script>
 </body>
 </html>
