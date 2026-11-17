@@ -68,7 +68,7 @@ body {
     font-weight: 400;
     line-height: 1.75;
     color: var(--text);
-    overflow-x: hidden;
+    overflow-x: clip;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     background:
@@ -232,6 +232,10 @@ nav a.active {
 /* Sleek Neon-Cyan & Emerald Hamburger Trigger */
 .menu-toggle {
     display: none;
+    -webkit-appearance: none;
+    appearance: none;
+    flex-shrink: 0;
+    padding: 0;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -1065,17 +1069,25 @@ footer {
 .reveal-left.visible,
 .reveal-right.visible,
 .stagger.visible > *,
-.stagger > *.visible {
+.stagger > *.visible,
+#complete-archive .stagger > * {
     opacity: 1;
     transform: translateY(0);
 }
-
 /* ==========================================
    14. RESPONSIVE (TABLET, SPLITSCREEN & MOBILE)
 ========================================== */
 @media (max-width: 1080px) {
     header {
-        padding: 12px 24px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 20px;
+    }
+
+    .logo {
+        min-width: 0;
     }
 
     /* Activate Hamburger Drawer when .menu-toggle is present */
