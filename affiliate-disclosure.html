@@ -29,7 +29,10 @@
             </div>
         </a>
     </div>
-    <nav><ul>
+    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+    </button>
+    <nav id="main-nav"><ul>
         <li><a href="/index.html">Home</a></li>
         <li><a href="/articles.html">Articles</a></li>
         <li><a href="/categories.html">Categories</a></li>
@@ -42,15 +45,17 @@
 
 <main class="container">
     <section class="hero page-hero reveal visible">
+        <div class="grid-overlay"></div>
         <div class="section-label">TRANSPARENCY</div>
         <h1>Affiliate <span>Disclosure</span></h1>
-        <p>In the interest of integrity, we want you to understand how this laboratory is supported.</p>
+        <p>In the interest of integrity, we want you to understand clearly how this laboratory is supported.</p>
     </section>
     
-    <section class="card" style="align-items: flex-start; text-align: left;">
-        <p><strong>Affiliate Disclosure:</strong> Business Lens Lab participates in software affiliate programs. When you click an outbound link to a software provider we audit and start a paid subscription or trial, our laboratory may earn a commission at zero extra cost to you.</p>
-        <br>
-        <p><strong>Independent Research:</strong> Our Lab Findings remain 100% independent. Software vendors cannot buy positive scores, suppress limitations, or alter our pricing audits.</p>
+    <section class="editorial-prose" style="max-width: 860px; margin: 0 auto 80px; padding: 0 12px;">
+        <h3>1. How Affiliate Links Work</h3>
+        <p>Business Lens Lab participates in software affiliate programs. When you click an outbound link to a software provider we audit and start a paid subscription or trial, our laboratory may earn a referral commission at zero extra cost to you.</p>
+        <h3>2. Independent Research Rule</h3>
+        <p>Our Lab Findings remain 100% independent. Software vendors cannot buy higher scores, hide renewal pricing jumps, or remove honest limitation sections from any report.</p>
     </section>
 </main>
 
